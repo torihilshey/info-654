@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* background-color */
+body {
+background-color: #392A0F;
+font-family: "Almendra", serif;
+font-size: 16px;
+color: white;
+}
+
+/* typography */
+h1, h2 {
+  font-family: "Almendra Display", serif;
+  text-align: center;
+}
+h1{
+    font-size: 250%;
+}
+h2{
+    font-size: 200%;
+}
+h3, th{
+    font-family: "Almendra", serif;
+}
+h3{
+    font-size: 150%;
+}
+
+/* link-styles */
+a.one {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #0098D4;
+    font-family: "Almendra", serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a.one:link {color: #FFFFFF;}
+a.one:visited { color: #FFFFFF;}
+a.one:active {color:#dc6700;}
+a.one:hover {
+    background-color: #dc6700; 
+    text-decoration: underline;
+}
+a.two:link {color: #FFFFFF;}
+a.two:visited { color: #FFFFFF;}
+a.two:active {color:#dc6700;}
+a.two:hover {
+    background-color: #dc6700; 
+    text-decoration: underline;
+}
+
+/* image-positioning */
+.centered-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.events-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+.about-img {
+  display: flex;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+/* header-footer */
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #392A0F;
+    padding: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: #392A0F;
+    text-align: right;
+    padding: 10px;
+    clear: both;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* about-page-layout */
+.left-section {
+    max-width: 30%;
+    float: left;
+    padding: 10px;
+    border-style: none;
+    }
+.main-section {
+    width: 60%;
+    float: right;
+    padding: 10px;
+    border-style: none;
+    }
+
+/* menu-page-layout */
+#menu-grid {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 15px;
+}
+
+.menu-border {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+}
+
+/* events-page-layout */
+.events-grid {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 25px;
+}
